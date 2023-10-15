@@ -9,7 +9,7 @@ h1 {
 
 header {
   min-height: 100px;
-  background-color: darkgrey;
+  background-color: #1171ba;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -19,18 +19,19 @@ header {
   font-size: 1.8em;
   min-height: 90px;
   max-width: 100%;
-  border: solid 3px;
+  border: solid 3px white;
   padding: 12px;
   border-radius: 10%;
   margin: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+  color: rgb(249, 248, 248);
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 li {
@@ -52,6 +53,8 @@ nav {
 .cards {
   margin: 10px;
   width: 33%;
+  padding: 5px;
+  border: solid 2px;
 }
 
 .cards_images {
@@ -59,15 +62,17 @@ nav {
 }
 
 button {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  margin: 10px;
 }
 
 footer {
   min-height: 100px;
-  background-color: darkgray;
+  background-color: #1171ba;
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-end;
+  color: white;
 }
 
 .copyright {
